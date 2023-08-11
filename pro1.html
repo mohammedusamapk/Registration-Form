@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project 1</title>
+    <link rel="stylesheet" href="pro1.css">
+    <style>
+       
+        
+        body{
+            background-image: url(https://i.pinimg.com/originals/73/1c/87/731c87e4181c10ca8c60a556c3d2df34.jpg) ;
+            background-size: cover;
+            background-position: center;
+           width: 100%;
+            
+        }
+        .container {
+            margin: 127px 323px;;
+            text-align: center;
+            padding-bottom: 4px;
+            padding: 10px;
+            border-radius: 20px;
+            border: 2px solid black;
+            color: rgb(255, 255, 255);
+            font-size: 20px;
+            width: 50%;
+            padding: 10px;
+            background-color:rgba(0,0,0,0.5);
+        } 
+
+        #number {
+            margin-left: 30px;
+            padding: 10px;
+            margin-top: 20px;
+            
+        }
+
+        #username {
+            margin-left: 27px;
+            padding: 10px;
+            margin-top: 20px;
+        }
+
+        #email {
+            margin-left: 70px;
+            padding: 10px;
+            margin-top: 20px;
+        }
+
+        #password {
+            margin-left: 41px;
+            padding: 10px;
+            margin-top: 20px;
+        }
+
+        .submit {
+            padding: 10px;
+            margin-top: 20px;
+            position: static;
+            margin-left: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="backend.php">
+        <div class="registrationform">
+            <div class="container">
+                <h2>REGISTRATION FORM</h2>
+                <label for="username">User Name</label>
+                <input type="text" name="myUsername" id="username" placeholder="User Name"><br>
+                <label for="number">Mobile No</label>
+                <input type="text" name="myName" id="number" placeholder="Mobile No" ><br>
+                <label for="email">Email</label>
+                <input type="email" name="myEmail" id="email" placeholder="Email"><br>
+                <label for="password">Password</label>
+                <input type="password" name="myPassword" id="password" placeholder="Password"><br>
+                <input class="submit" type="Submit" value="Submit Now">
+            </div>
+        </div>
+    </form>
+
+</body>
+
+</html>

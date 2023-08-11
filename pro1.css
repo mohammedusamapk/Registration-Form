@@ -1,0 +1,25 @@
+.submit:hover{
+    background-color: rgba(14, 2, 82, 0.5);
+    border: 2px solid black;
+    border-radius: 20px;
+}
+.submit{
+    background-color: rgba(43, 8, 246, 0.5);
+    color: white;
+    border: none;
+    height: 40px;
+    border-radius: 20px;
+    width: 100px;
+    position: relative;
+   margin-left: 128px;
+}
+input{
+    border-radius: 10px;
+    border: 1px solid black;
+    outline: none;
+   
+}
+input:hover{
+    /* background-color: rgba(127, 127, 127, 0.5); */
+    /* color:white ; */
+}
